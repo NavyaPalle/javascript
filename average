@@ -1,0 +1,4 @@
+marks = 70
+marks2 = 80
+marks3 = 80
+alert(marks+marks2+marks3/3)
