@@ -1,0 +1,8 @@
+Math.sqrt(4)
+Math.power(2,3)
+Math.abs(-4)
+Math.random()
+Math.ceil(4.4)
+Math.round(4.7)
+Math.floor(4.4)
+Math.sin(90)
