@@ -1,10 +1,19 @@
 <!DOCTYPE>
 <html>
 <head>
-<title>Fibonacci series</title?
+<title>Fibonacci series</title>
 </head>
+<body>
+  <p>you cannot use num</p>
+<p>id="fibonacci"></p>
 <script>
 function Fib(num){
+    try { 
+      Fib(num)
+        }
+    catch(err){
+      document.getElementById("fibonacci").innerHTML = err.name;  
+    }
 let num = 5;
 for (let i=0;i<=num;i++){
 if ((i==0 or i==1)){
